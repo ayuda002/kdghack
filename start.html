@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>オリンピック入場サイト</title>
+
+    <link rel="stylesheet" href="src/css/index.css" type="text/css">
+
+</head>
+
+<body>
+    <style type="text/css">
+        body {
+           background-color: #4DA9DD;            /* 背景色 */
+           background-image: url("src/image/olympics.jpg"); /* 画像 */
+           background-size: cover;               /* 全画面 */
+           background-attachment: fixed;         /* 固定 */
+           background-position: center center;   /* 縦横中央 */
+        }
+        html {
+            height: 100%;
+            width: 100%;
+            line-height: 1em;
+        }
+        body {
+            font-size: 1.4em;
+            color:white;
+            font-weight: 900;
+        }
+        p {
+            text-align: center
+        }
+        p#vw {
+            font-size: 10vw;
+        }
+        p#vh {
+            font-size: 10vh;
+        }
+        .text-center{
+            text-align: center;
+        }
+    </style>
+<div>
+    <p id="vw">Welcome to</p>
+    <p id="vw">the Olympics!</p>
+    <div class="text-center">
+    <dic >
+       <h2>あなたはどちらのチームを応援しますか？</h2>
+    </div>
+
+    <div class="text-center">
+        <!-- <SPAN style="margin-left:450px"> -->
+    <a href="japan/index2.html" id="japan" class="btn btn-flat">
+        <span>🇯🇵日本（Japan）</span></a>
+    </SPAN>
+    <a href="america/america.html" id="US_co" class="btn btn-flat">
+        <span>🇺🇸アメリカ合衆国（USA）</span></a>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+
+<script src="src/js/config.js"></script>
+<script src="src/js/fire.js"></script>
+
+</html>
